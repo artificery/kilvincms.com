@@ -23,7 +23,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        define('KILVIN_DOCS_PACKAGE_PATH', realpath(__DIR__.'/../../../kilvin-docs').DIRECTORY_SEPARATOR);
+        define('KILVIN_DOCS_PACKAGE_PATH', realpath(__DIR__.'/../../vendor/artificery/kilvin-docs').DIRECTORY_SEPARATOR);
 
         $this->app->singleton('parsedown', function () {
             return Parsedown::instance();
