@@ -1,12 +1,12 @@
 {
-    "name": "laravel/laravel",
+    "name": "artificery/kilvincms.com",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "The Kilvin CMS website.",
     "keywords": [
-        "framework",
+        "kilvin",
+        "CMS",
         "laravel"
     ],
-    "license": "MIT",
     "require": {
         "php": "^7.1.3",
         "fideloper/proxy": "^4.0",
@@ -62,11 +62,5 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../kilvin-docs"
-        }
-    ]
+    }
 }
