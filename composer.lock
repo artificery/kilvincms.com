@@ -4,24 +4,31 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "101fb93e1936afe8f25e28a16cef3870",
+    "content-hash": "22a5ee591637140168468238517c9339",
     "packages": [
         {
             "name": "artificery/kilvin-docs",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/artificery/kilvin-docs.git",
+                "reference": "72f924cbc90b0f325b5739c521504521bddf8020"
+            },
             "dist": {
-                "type": "path",
-                "url": "../kilvin-docs",
+                "type": "zip",
+                "url": "https://api.github.com/repos/artificery/kilvin-docs/zipball/72f924cbc90b0f325b5739c521504521bddf8020",
                 "reference": "72f924cbc90b0f325b5739c521504521bddf8020",
-                "shasum": null
+                "shasum": ""
             },
             "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
                     "name": "Paul Burdick",
                     "email": "paul@reedmaniac.com"
                 }
-            ]
+            ],
+            "time": "2019-01-15T20:26:45+00:00"
         },
         {
             "name": "doctrine/inflector",
